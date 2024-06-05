@@ -1,0 +1,13 @@
+.login-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    .login-form {
+        grid-column: 2;
+        grid-row: 2;
+        background-color: orange;
+
+        padding: 1rem;
+    }
+}

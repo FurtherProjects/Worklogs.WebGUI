@@ -1,0 +1,28 @@
+.container {
+    max-width: 75em;
+    margin: auto;
+
+    > .card-new {
+        display: grid;
+        grid-template-columns: auto;
+        border: 1px solid gray;
+        border-radius: 0.5em;
+        padding: 0.5em;
+
+        > label {
+            grid-column: auto;
+
+            &:not(:first-child) {
+                margin-top: 1em;
+            }
+        }
+
+        :not(label) {
+            grid-column: auto;
+        }
+
+        button {
+            margin-top: 1em;
+        }
+    }
+}

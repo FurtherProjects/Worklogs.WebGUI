@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+
+    .employees {
+
+    }
+
+    .worklogs-approvals {
+        flex-grow: 1;
+    }
+}

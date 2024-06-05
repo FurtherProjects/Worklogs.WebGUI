@@ -88,7 +88,7 @@ const webpackConfigs = {
     ],
     devServer: {
         hot: true,
-        host: 'localhost',
+        host: 'worklogs.local',
         historyApiFallback: true
     }
 }

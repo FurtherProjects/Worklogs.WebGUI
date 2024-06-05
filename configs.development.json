@@ -2,7 +2,7 @@
     "env": "development",
     "api": {
         "https": false,
-        "host": "127.0.0.0",
-        "port": 8000
+        "host": "worklogs.local",
+        "port": 5131
     }
 }
